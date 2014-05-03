@@ -1,0 +1,22 @@
+{
+  "name": "juju.solutions",
+  "version": "0.0.0",
+  "authors": [
+    "Charles Butler <chuck@dasroot.net>"
+  ],
+  "description": "Juju Solutions Team",
+  "main": "main.py",
+  "license": "MIT",
+  "homepage": "http://juju.solutions",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui": "~0.16.1"
+  }
+}

@@ -1,7 +1,34 @@
 <html>
   <head>
-    <title></title>
+    <title>{{title}}</title>
+    {% assets "css_all" %}
+       <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}"></script>
+    {% endassets %}  
   </head>
+  <body>
+	<div class="ui orange menu">
+	  <a class="active item">
+	    <i class="home icon"></i> Home
+	  </a>
+	  <a class="item">
+	    <i class="mail icon"></i> Messages
+	  </a>
+	  <a class="item">
+	    <i class="user icon"></i> Friends
+	  </a>
+	</div>
 
+    <h1>Hello</h1>
+	    
+	<div class="ui grid">
+	  <div class="eight wide column">
+	    <div class="ui segment">
+	    </div>
+	  </div>
+	</div>
 
+    {% assets "js_all" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+  </body>
 </html>
