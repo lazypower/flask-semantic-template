@@ -1,7 +1,7 @@
 import os
 from flask import (
-	Flask,
-	render_template,
+    Flask,
+    render_template,
 )
 from flask.ext import assets
 
@@ -18,12 +18,12 @@ env.load_path = [
     os.path.join(os.path.dirname(__file__), 'bower_components'),
 ]
 
-# Register javascripts and coffeescript 
+# Register javascripts and coffeescript
 env.register(
     'js_all',
     assets.Bundle(
         'jquery/dist/jquery.min.js',
-	'semantic-ui/build/packaged/javascript/semantic.min.js',
+        'semantic-ui/build/packaged/javascript/semantic.min.js',
         assets.Bundle(
             'all.coffee',
             filters=['coffeescript']
@@ -42,7 +42,7 @@ env.register(
     ),
     assets.Bundle(
         'semantic-ui/build/packaged/css/semantic.css',
-	output='semantic_all.css'
+        output='semantic_all.css'
     ),
 )
 
