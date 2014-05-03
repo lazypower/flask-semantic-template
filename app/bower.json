@@ -1,13 +1,13 @@
 {
-  "name": "juju.solutions",
+  "name": "Python-Semantic",
   "version": "0.0.0",
   "authors": [
     "Charles Butler <chuck@dasroot.net>"
   ],
-  "description": "Juju Solutions Team",
+  "description": "Semantic Python Template",
   "main": "main.py",
   "license": "MIT",
-  "homepage": "http://juju.solutions",
+  "homepage": "http://dasroot.net",
   "private": true,
   "ignore": [
     "**/.*",
