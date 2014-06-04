@@ -3,7 +3,7 @@ all: coverage lint run_server
 depends: 
 	venv/bin/pip install -q -r requirements.txt --upgrade
 
-develop: setup
+develop: setup assets
 	venv/bin/pip install -q -r requirements.txt
 
 venv_boot:
