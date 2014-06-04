@@ -13,7 +13,8 @@ run_server:
 	venv/bin/python app/__init__.py
 
 assets:
-	bower install app/bower.json
+	cd app
+	bower install
 
 setup: venv/bin/python
 	venv/bin/pip install -q -r requirements.test.txt
